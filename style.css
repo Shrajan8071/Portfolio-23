@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,600;1,300;1,700&family=Great+Vibes&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: light;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+body{
+    background-color: white;
+}
+.box{
+    border: 2px solid black;
+}
+
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current "tab button" class */
+  button.active {
+    /* background-color: #ccc; */
+    color: rgb(63, 58, 58);
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    /* border: 1px solid #ccc; */
+    display: none;
+    width: 100%;
+    border-left: none;
+    height: 100vh;
+  }
+  button{
+    color: rgb(152, 142, 142); 
+  }
+  button:hover{
+    color: rgb(0, 0, 0);
+    /* color: rgb(152, 142, 142); */
+    
+  }
+  /* .logo:hover{
+    color: rgb(146, 152, 142);
+  } */
+  .navigationbar{
+    height: 15vh;
+    margin-bottom: 0 !important;
+  }
+  .contentbar{
+    height: 10%;
+  }
+  .first{
+    display: block;
+  }
+  .wid{
+    width: 100%;
+  }
+  a{
+    color: black;
+  }
